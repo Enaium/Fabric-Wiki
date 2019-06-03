@@ -5,8 +5,8 @@
 
 ### 安装程序
 * [建立开发环境](tutorial/setup.md)
-* 启用log4j调试消息
-* 使用CurseGradle发布mod
+* [启用log4j调试消息](https://wiki.vg/Debugging)
+* [使用CurseGradle发布mod](tutorial/cursegradle.md)
 
 ### 基础
 * 惯例和术语
