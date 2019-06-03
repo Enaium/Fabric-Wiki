@@ -5,16 +5,16 @@
 * 任何IDE，例如 [Intellij IDEA](https://www.jetbrains.com/idea/download/#section=windows)
 
 ## 步骤
-1. 复制[fabric-example-mod](https://github.com/FabricMC/fabric-example-mod/)中的起始文件，不包括LICENSE和README.md文件 - 这些文件适用于模板本身，不一定适用于你的mod。复制fabric-example-mod中的起始文件，不包括LICENSE和README.md文件 - 这些文件适用于模板本身，不一定适用于你的mod。
-2. 编辑gradle.properties：
-* 确保设置archives_base_name和maven_group您的首选值
+1. 复制[fabric-example-mod](https://github.com/FabricMC/fabric-example-mod/)中的起始文件，不包括[LICENSE]和[README.md]文件 - 这些文件适用于模板本身，不一定适用于你的mod。
+2. 编辑[gradle.properties]：
+* 确保设置[archives_base_name]和[maven_group]您的首选值
 * 确保更新Minecraft的版本，映射和加载程序 - 所有这些都可以通过[本网站](https://modmuss50.me/fabric.html)查询- 以匹配您希望定位的版本。
-* 添加您计划使用的任何其他依赖项build.gradle。
+* 添加您计划使用的任何其他依赖项[build.gradle]。
 3. 将项目导入IDE。按照以下说明将项目导入Visual Studio代码。
-4. 运行genSourcesGradle任务。如果您的IDE没有Gradle集成，请在终端中运行以下命令：./gradlew genSources。
+4. 运行[genSourcesGradle]任务。如果您的IDE没有Gradle集成，请在终端中运行以下命令：[./gradlew genSources]。
 5. 如果您想让IDE运行配置，您可以运行以下命令：
-* 对于IntelliJ IDEA : ./gradlew idea.
-* 对于Eclipse : ./gradlew eclipse.
+* 对于IntelliJ IDEA : [./gradlew idea.]
+* 对于Eclipse : [./gradlew eclipse.]
 * 如果使用VS代码，则在步骤3生成配置。
 6. Happy modding!
 ## 建议
@@ -24,10 +24,11 @@
 
 ## 故障排除
 ### 缺少声音
-有时，将Gradle项目导入IDE时，资产可能无法正确下载。在这种情况下，请downloadAssets手动运行任务 - 使用IDE的内置菜单或只是运行[gradlew downloadAssets]()。
+
+有时，将Gradle项目导入IDE时，资产可能无法正确下载。在这种情况下，请downloadAssets手动运行任务 - 使用IDE的内置菜单或只是运行[gradlew downloadAssets]。
 
 ## 汉化总结
 
 * 打开 [fabric-example-mod](https://github.com/FabricMC/fabric-example-mod/)
 
-* 下载 为zip然后解压 在目录打开 Powershell或者cmd （shift+右键打开）
+* 下载 为zip然后解压 在目录打开 Powershell或者cmd （shift+右键打开）输入命令 IDEA ：[./gradlew idea] Eclipse： [./gradlew eclipse] 然后出现 [Success] 就是配置成功 IDEA 打开方法：双击 fabric-example-mod.ipr 用IDEA打开
