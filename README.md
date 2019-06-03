@@ -21,7 +21,7 @@
 * [添加实体](tutorial/entity.md)
 * 添加方块实体(tutorial/blockentity.md)
 * [自定义快捷键绑定](tutorial/keybinds.md)
-* 使用映射
+* [使用映射](tutorial/mappings.md)
 * 维度概念
 * 创建基本维度
 
