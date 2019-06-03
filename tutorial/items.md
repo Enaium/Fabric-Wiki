@@ -66,7 +66,7 @@ public class ExampleMod implements ModInitializer
 项目的父级会更改其在手中的呈现方式，并且对于清单中的块项目等内容非常有用。“item / handheld”用于从纹理左下方保留的工具。textures / layer0是图像文件的位置。
 
 最终纹理结果：
-![img2](img/items/item_texture.png)
+![img2](https://raw.githubusercontent.com/Lightcolour-666/Fabric-Wiki/master/tutorial/img/items/item_texture.png)
 
 ### 创建Item类
 
