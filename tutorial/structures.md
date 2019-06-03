@@ -147,11 +147,11 @@ public boolean generate(IWorld iWorld_1, Random random_1, MutableIntBoundingBox 
 
 注册结构：
 
-public static final StructureFeature<?> myStructure = Registry.register(Registry.STRUCTURE_FEATURE, "my_structure", myFeature);`
+`public static final StructureFeature<?> myStructure = Registry.register(Registry.STRUCTURE_FEATURE, "my_structure", myFeature);`
 
 要将您的功能放入功能列表中，您可以使用：
 
-Feature.STRUCTURES.put("My Awesome Feature", myFeature);
+`Feature.STRUCTURES.put("My Awesome Feature", myFeature);`
 
 对于测试，最好将您的功能注册到每个生物群系并将产卵率设置为100％，这样您就可以确定它的产生和工作。你可能不希望你的结构漂浮在水中，所以我们也会过滤掉它。通过迭代生物群系列表并将其添加为特征和生成步骤，将其添加到每个生物群系：
 ```
