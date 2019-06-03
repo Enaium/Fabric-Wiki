@@ -9,8 +9,8 @@
 * [使用CurseGradle发布mod](tutorial/cursegradle.md)
 
 ### 基础
-* 惯例和术语
->* 基本惯例和语法
+* 惯例和语法
+>* [基本惯例和语法](tutorial/terms.md)
 >* 服务器和客户端语法
 * 添加项目
 * 添加项目
