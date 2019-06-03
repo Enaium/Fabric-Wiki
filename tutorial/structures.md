@@ -143,12 +143,11 @@ public boolean generate(IWorld iWorld_1, Random random_1, MutableIntBoundingBox 
 
 注册功能：
 
-public static final StructureFeature<DefaultFeatureConfig> myFeature = Registry.register(Registry.FEATURE, "my_feature", new MyFeature());
-Registering structure:
+`public static final StructureFeature<DefaultFeatureConfig> myFeature = Registry.register(Registry.FEATURE, "my_feature", new MyFeature());`
 
 注册结构：
 
-public static final StructureFeature<?> myStructure = Registry.register(Registry.STRUCTURE_FEATURE, "my_structure", myFeature);
+public static final StructureFeature<?> myStructure = Registry.register(Registry.STRUCTURE_FEATURE, "my_structure", myFeature);`
 
 要将您的功能放入功能列表中，您可以使用：
 
