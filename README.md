@@ -4,7 +4,7 @@
 ## 教程 
 
 ### 安装程序
-* 建立开发环境
+* [建立开发环境](tutorial/setup.md)
 * 启用log4j调试消息
 * 使用CurseGradle发布mod
 
