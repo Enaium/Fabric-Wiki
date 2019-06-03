@@ -37,7 +37,7 @@
 
 有时，将Gradle项目导入IDE时，资产可能无法正确下载。在这种情况下，请downloadAssets手动运行任务 - 使用IDE的内置菜单或只是运行[gradlew downloadAssets]。
 
-## 汉化总结
+## 汉化提示
 
 * 打开 [fabric-example-mod](https://github.com/FabricMC/fabric-example-mod/)
 
