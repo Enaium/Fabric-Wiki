@@ -22,11 +22,11 @@
 * 添加方块实体(tutorial/blockentity.md)
 * [自定义快捷键绑定](tutorial/keybinds.md)
 * [使用映射](tutorial/mappings.md)
-* 维度概念
+* [维度概念](tutorial/dimensionconcepts.md)
 * 创建基本维度
 
 ### 高级
 
-* 修改提示
+* [Modding Tips](tutorial/modding_tips.md)
 * 从Loader 0.3.x更新到0.4.x.
 * 更新Java代码库中的Yarn映射
