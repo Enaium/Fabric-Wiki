@@ -22,8 +22,8 @@
 
 ```
 {
-  "item.modid.my_item": "我的项目",
-  "item.modid.my_awesome.item": "我的项目真棒",
+  "item.modid.my_item": "我的物品,
+  "item.modid.my_awesome.item": "我的物品真棒",
   [...]
 }
 ```
