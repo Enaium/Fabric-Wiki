@@ -12,7 +12,7 @@
 * 惯例和语法
 >* [基本惯例和语法](tutorial/terms.md)
 >* [服务器和客户端语法](tutorial/side.md)
-* 添加项目
+* [添加项目](tutorial/items.md)
 * 添加项目
 * 创建一个lang文件
 * 添加一个块
