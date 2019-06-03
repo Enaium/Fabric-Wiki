@@ -15,8 +15,8 @@
 * [添加项目](tutorial/items.md)
 * [创建一个lang文件](tutorial/lang.md)
 * [添加一个方块](tutorial/blocks.md)
-* 添加项目组
-* 根据生物群系进行块改变颜色
+* [添加项目组](tutorial/itemgroup.md)
+* [根据生物群系进行块改变颜色](tutorial//biomecoloring.md)
 * 生成结构
 * 添加实体
 * 添加BlockEntity
