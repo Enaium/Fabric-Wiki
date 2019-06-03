@@ -13,9 +13,8 @@
 >* [基本惯例和语法](tutorial/terms.md)
 >* [服务器和客户端语法](tutorial/side.md)
 * [添加项目](tutorial/items.md)
-* 添加项目
-* 创建一个lang文件
-* 添加一个块
+* [创建一个lang文件](tutorial/lang.md)
+* [添加一个方块](tutorial/blocks.md)
 * 添加项目组
 * 根据生物群系进行块改变颜色
 * 生成结构
