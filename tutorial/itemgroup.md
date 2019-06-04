@@ -54,7 +54,7 @@ public class ExampleMod implements ModInitializer
 }
 ```
 
-![img1](img\itemgroup\item_group_append_items.png)
+![img1](https://raw.githubusercontent.com/Lightcolour-666/Fabric-Wiki/master/tutorial/img/itemgroup/item_group_append_items.png)
 
 ---
 1） 请记住，传递给`Identifier`构造函数的参数只能包含某些字符。
