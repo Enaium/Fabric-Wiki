@@ -1,6 +1,6 @@
 # 物品组
-### 创建一个简单的项目组
-要`ItemGroup`在项目组中正确显示，请使用`FabricItemGroupBuilder`以创建它们：
+### 创建一个简单的物品组
+要`ItemGroup`在物品组中正确显示，请使用`FabricItemGroupBuilder`以创建它们：
 
 ```
 public class ExampleMod implements ModInitializer
@@ -18,16 +18,16 @@ public class ExampleMod implements ModInitializer
 }
 ```
 
-一旦`FabricItemGroupBuilder#build`被调用，你的团队将在创意菜单添加到项目组的列表。
+一旦`FabricItemGroupBuilder#build`被调用，你的团队将在创意菜单添加到物品组的列表。
 
-确保替换参数1）您传递给`Identifier`构造函数，并使用您的实际mod ID和稍后要为您的项目组进行本地化的翻译键2）。
+确保替换参数1）您传递给`Identifier`构造函数，并使用您的实际mod ID和稍后要为您的物品组进行本地化的翻译键2）。
 
 #### 将商品添加到商品分组
-要将项目添加到项目组，请`Item.Settings#itemGroup`在创建项目时调用，方法与将其添加到vanilla项目组相同：
+要将物品添加到物品组，请`Item.Settings#itemGroup`在创建物品时调用，方法与将其添加到vanilla物品组相同：
 
 `public static final Item YOUR_ITEM = new Item(new Item.Settings().itemGroup(ExampleMod.ITEM_GROUP));`
 
-#### 使项目组按特定顺序显示特定项目
+#### 使物品组按特定顺序显示特定物品
 打电话`FabricItemGroupBuilder#appendItems`给任何人。然后，您可以按某种顺序将所需的堆栈添加到给定列表中。可用于在组中放置空格。 `Consumer<List<ItemStack>>ItemStack.EMPTY`
 
 ```
