@@ -102,25 +102,27 @@ blockstate文件根据它的blockstate确定块应该使用哪个模型。由于
 块必须有一个战利品表，以便在块被破坏时丢弃任何物品。假设您已为块创建了一个项目并使用与该块相同的名称进行了注册，则以下文件将生成常规块丢弃`src/main/resources/data/wikitut/loot_tables/blocks/example_block.json`
 
 ```
-{ 
-  “type” ： “minecraft：block” ，
-  “pools” ： [ 
-    { 
-      “roll” ： 1 ，
-      “entries” ： [ 
-        { 
-          “type” ： “minecraft：item” ，
-          “name” ： “wikitut：example_block” 
-        } 
-      ] ，
-      “条件” ： [ 
-        { 
-          “condition” ： “minecraft：survives_explosion” 
-        } 
-      ] 
-    } 
-  ] 
-}
+    {
+      "type": "minecraft:block",
+      "pools": [
+        {
+          "rolls": 1,
+          "entries": [
+            {
+              "type": "minecraft:item",
+              "name": "wikitut:example_block"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:survives_explosion"
+            }
+          ]
+        }
+      ]
+    }
+
+
 ```
 
 在生存模式中被破坏时，该块现在将丢弃一个项目。
