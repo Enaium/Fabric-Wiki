@@ -19,7 +19,7 @@
 * [根据生物群系进行块改变颜色](tutorial//biomecoloring.md)
 * [生成结构](tutorial/structures.md)
 * [添加实体](tutorial/entity.md)
-* 添加方块实体(tutorial/blockentity.md)
+* [添加方块实体](tutorial/blockentity.md)
 * [自定义快捷键绑定](tutorial/keybinds.md)
 * [使用映射](tutorial/mappings.md)
 * [维度概念](tutorial/dimensionconcepts.md)
