@@ -25,10 +25,10 @@ public class CookieCreeperEntity extends CreeperEntity {
 
 要注册您的实体，我们将使用Registry.ENTITY_TYPE。要获取所需的注册表实例，您可以使用EntityType.Builder或FabricEntityTypeBuilder-我们建议使用第二个。
 ```
-public static final EntityType<CookieCreeperEntity> COOKIE_CREEPER =
+public static final EntityType<CookieCreeperEntity> cookie_CREEPER =
     Registry.register(
         Registry.ENTITY_TYPE,
-        new Identifier("wiki_entity", "cookie_creeper"),
+        new Identifier("wiki-entity", "cookie-creeper"),
         FabricEntityTypeBuilder.create(EntityCategory.AMBIENT, CookieCreeperEntity::new).size(1, 2).build()
     );
 ```
@@ -63,10 +63,10 @@ public CookieCreeperRenderer(EntityRenderDispatcher entityRenderDispatcher_1)
 @Override
 protected Identifier getTexture(CookieCreeperEntity cookieCreeperEntity)
 {
-    return new Identifier("wiki_entity:textures/entity/cookie_creeper/creeper.png");
+    return new Identifier("wiki-entity:textures/entity/cookie-creeper/creeper.png");
 }
 ```
-文件存储在resources/assets/wiki_entity/textures/entity/cookie_creeper/creeper.png中。
+文件存储在resources/assets/wiki-entity/textures/entity/cookie-creeper/creeper.png中。
 
 最后，您需要将实体连接到渲染器。由于渲染只发生在客户端，因此您应该始终在ClientModInitializer中执行此类工作：
 ```
