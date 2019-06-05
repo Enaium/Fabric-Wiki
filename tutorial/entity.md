@@ -5,7 +5,7 @@
 
 要添加实体，您需要3个主要类：
 
-* 实体类，它为您的生物提供逻辑/ AI
+* 实体类，它为您的生物提供逻辑/AI
 * Renderer类，允许您将实体连接到模型
 * 一个Model类，这是你的玩家在游戏中看到的
 
@@ -28,7 +28,7 @@ public class CookieCreeperEntity extends CreeperEntity {
 public static final EntityType<CookieCreeperEntity> COOKIE_CREEPER =
     Registry.register(
         Registry.ENTITY_TYPE,
-        new Identifier("wiki-entity", "cookie-creeper"),
+        new Identifier("wiki_entity", "cookie_creeper"),
         FabricEntityTypeBuilder.create(EntityCategory.AMBIENT, CookieCreeperEntity::new).size(1, 2).build()
     );
 ```
@@ -58,15 +58,15 @@ public CookieCreeperRenderer(EntityRenderDispatcher entityRenderDispatcher_1)
 ```
 对于getTexture方法，您需要返回模型的纹理。如果为null，则您的实体将不可见。这是100％保证的方式，花3个小时试图找出你的模型不工作的原因。为了您的方便，我创建了一个可供所有人使用的Cookie Creeper纹理，您可以从[此处](https://imgur.com/a/o3TOlxN)下载。
 
-默认的实体纹理文件夹约定是：textures / entity / entity_name / entity.png。这是一个示例实现：
+默认的实体纹理文件夹约定是：textures/entity/entity_name/entity.png。这是一个示例实现：
 ```
 @Override
 protected Identifier getTexture(CookieCreeperEntity cookieCreeperEntity)
 {
-    return new Identifier("wiki-entity:textures/entity/cookie_creeper/creeper.png");
+    return new Identifier("wiki_entity:textures/entity/cookie_creeper/creeper.png");
 }
 ```
-文件存储在resources / assets / wiki-entity / textures / entity / cookie_creeper / creeper.png中。
+文件存储在resources/assets/wiki_entity/textures/entity/cookie_creeper/creeper.png中。
 
 最后，您需要将实体连接到渲染器。由于渲染只发生在客户端，因此您应该始终在ClientModInitializer中执行此类工作：
 ```
