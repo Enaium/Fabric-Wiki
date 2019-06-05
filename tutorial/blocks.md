@@ -99,7 +99,7 @@ blockstate文件根据它的blockstate确定块应该使用哪个模型。由于
 加载我的世界，你的块最终应该有一个纹理！
 
 ### 添加方块战利品表
-块必须有一个战利品表，以便在块被破坏时丢弃任何物品。假设您已为块创建了一个项目并使用与该块相同的名称进行了注册，则以下文件将生成常规块丢弃`src/main/resources/data/wikitut/loot_tables/blocks/example_block.json`
+块必须有一个战利品表，以便在块被破坏时丢弃任何物品。假设您已为块创建了一个项目并使用与该块相同的名称进行了注册，则以下文件将生成常规块丢弃`src/main/resources/data/wikitut/loot_tables/blocks/example_block.json`注意这里是data目录下不是assets
 
 ```
     {
@@ -125,7 +125,7 @@ blockstate文件根据它的blockstate确定块应该使用哪个模型。由于
 
 ```
 
-在生存模式中被破坏时，该块现在将丢弃一个项目。
+在生存模式中被破坏时，该块现在将丢弃一个物品。
 
 ### 创建一个Block类
 创建一个简单的块时，上述方法效果很好，但有时您需要一个具有独特机制的特殊块。我们将创建一个单独的类来扩展Block来执行此操作。该类需要一个接受BlockSettings参数的构造函数。
