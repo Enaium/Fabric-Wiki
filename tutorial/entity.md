@@ -55,7 +55,7 @@ public CookieCreeperRenderer(EntityRenderDispatcher entityRenderDispatcher_1)
 {
     super(entityRenderDispatcher_1, new CreeperEntityModel<>(), 1);
 }
-``
+```
 对于getTexture方法，您需要返回模型的纹理。如果为null，则您的实体将不可见。这是100％保证的方式，花3个小时试图找出你的模型不工作的原因。为了您的方便，我创建了一个可供所有人使用的Cookie Creeper纹理，您可以从[此处](https://imgur.com/a/o3TOlxN)下载。
 
 默认的实体纹理文件夹约定是：textures / entity / entity_name / entity.png。这是一个示例实现：
