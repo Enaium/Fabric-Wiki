@@ -33,5 +33,5 @@
 
 ### 文档
 
-* [fabric.mod.json](documentation\fabric_mod_json.md)
+* [fabric.mod.json](documentation/fabric_mod_json.md)
 * [Mixin 维基](http://github.com/SpongePowered/Mixin/wiki)
