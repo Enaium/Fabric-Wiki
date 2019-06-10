@@ -6,7 +6,7 @@
 
 有用的来源：
 > * [fabric.mod.json](./documentation/fabric_mod_json.md)格式
-> * 示例mod，应该立即更新（更新提交）
+> * [示例mod](https://github.com/FabricMC/fabric-example-mod/)，应该立即更新（[更新提交](https://github.com/FabricMC/fabric-example-mod/commit/d6e85e22192c7d824572668f54a5bf81eec3bc78)）
 
 ## 嵌套的JAR
 关于嵌套JAR的用途存在很多混淆。
