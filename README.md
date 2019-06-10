@@ -30,3 +30,8 @@
 * [Modding Tips](tutorial/modding_tips.md)
 * [从Loader 0.3.x更新到0.4.x.](tutorial/loader04x.md)
 * [更新Java代码库中的Yarn映射](tutorial/migratemappings.md)
+
+### 文档
+
+* [fabric.mod.json](documentation\fabric_mod_json.md)
+* [Mixin 维基](http://github.com/SpongePowered/Mixin/wiki)
