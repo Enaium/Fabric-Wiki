@@ -1,6 +1,6 @@
 # 物品组
 ### 创建一个简单的物品组
-要`ItemGroup`在物品组中正确显示,请使用`FabricItemGroupBuilder`以创建它们：
+要`ItemGroup`在物品组中正确显示,请使用`FabricItemGroupBuilder`以创建它们:
 
 ```
 public class ExampleMod implements ModInitializer
@@ -23,7 +23,7 @@ public class ExampleMod implements ModInitializer
 确保替换参数1）您传递给`Identifier`构造函数,并使用您的实际mod ID和稍后要为您的物品组进行本地化的翻译键2）.
 
 #### 将商品添加到商品分组
-要将物品添加到物品组,请`Item.Settings#itemGroup`在创建物品时调用,方法与将其添加到vanilla物品组相同：
+要将物品添加到物品组,请`Item.Settings#itemGroup`在创建物品时调用,方法与将其添加到vanilla物品组相同:
 
 `public static final Item YOUR_ITEM = new Item(new Item.Settings().itemGroup(ExampleMod.ITEM_GROUP));`
 

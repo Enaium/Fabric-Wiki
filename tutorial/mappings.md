@@ -11,7 +11,7 @@ Yarn是Loom使用的默认映射.随着捐款被接受,纱线逐渐改善并接�
 ```
 dependencies { 
     [...] 
-    mappings"net.fabricmc：yarn：$ {project.yarn_mappings}" 
+    mappings"net.fabricmc:yarn:$ {project.yarn_mappings}" 
 }
 ```
 

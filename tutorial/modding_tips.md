@@ -1,7 +1,7 @@
 # Modding Tips
 以下是从为API用户提供建议的经验中收集的各种与Fabric相关的修改技巧的集合.
 ## Basics （API）
-* 由于Fabric的API开发基于注入的方法,我们不倾向于以最终用户可见的方式完全修补类.因此,当您遇到无法做到的事情时,您可能偶尔会发现vanilla类的Fabric扩展.例如：
+* 由于Fabric的API开发基于注入的方法,我们不倾向于以最终用户可见的方式完全修补类.因此,当您遇到无法做到的事情时,您可能偶尔会发现vanilla类的Fabric扩展.例如:
 >* Block.Settings→FabricBlockSettings
 >* EntityType.Builder→FabricEntityTypeBuilder
 >* 在正在使用官方配置系统的同时,现在的一个替代是使用Java .properties或JSON.

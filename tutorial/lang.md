@@ -6,7 +6,7 @@
 您可以使用lang文件为游戏中的可翻译字符串提供翻译.您需要为您的语言创建一个具有适当文件名的文件 - 以查找您的语言代码,请访问此链接.英语是en_us.获得语言代码后,在resources / assets / modid / lang /创建一个JSON文件; 英语翻译文件的完整示例是resources / assets / wikitut / lang / en_us.json.
 
 ## 添加翻译
-创建lang文件后,您可以使用此基本模板添加翻译：
+创建lang文件后,您可以使用此基本模板添加翻译:
 
 `resources/assets/wikitut/lang/en_us.json`
 
