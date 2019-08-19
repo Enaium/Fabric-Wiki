@@ -2,7 +2,7 @@
 这是一个中文的Wiki  (人翻+机翻)
 
 ## 用户
-如果您愿意将Fabric用作播放器，服务器管理员或modpack开发人员，这些文章适合您：
+如果您愿意将Fabric用作启动器，服务器管理员或modpack开发人员，这些文章适合您：
 
 ### 教程
 * [安装Fabric](https://fabricmc.net/wiki/install)
