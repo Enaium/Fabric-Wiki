@@ -324,7 +324,7 @@ public abstract class Acid extends BasicFluid
         });
 ```
 然后剩下要做的就是创建必要的Json文件和纹理，但是您现在应该知道该怎么做。
-## 世界的一代
+## 世界
 要在世界上产生酸湖，可以使用在ModInitializer中创建的net.minecraft.world.gen.feature.LakeFeature：
 ```
 LakeFeature acidFeature = Registry.register(Registry.FEATURE, new Identifier(MODID,"acid_lake"), new LakeFeature(dynamic -> new LakeFeatureConfig(acid.getDefaultState())));
