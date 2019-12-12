@@ -10,6 +10,8 @@
 * [安装Minecraft / Fabric服务器](https://fabricmc.net/wiki/tutorial:installing_minecraft_fabric_server)
 * [添加mods](https://fabricmc.net/wiki/tutorial:adding_mods)
 * [更新现有的MultiMC实例](https://fabricmc.net/wiki/tutorial:updating_fabric_using_multimc_launcher)
+* [安装/验证 java]()
+
 
 ## Modpack和Launcher开发人员
 ### 教程
