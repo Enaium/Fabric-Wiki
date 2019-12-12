@@ -276,6 +276,10 @@ public abstract class Acid extends BasicFluid
     }
 }    
 ```
+现在我们可以断言Acid类已完成。
+
+## 渲染设置
+是时候做客户端的事情了。在ClientModInitializer中，您需要为流体指定精灵的位置并定义其渲染。我将重复使用水纹理，只是更改应用于它们的颜色。
 ```
  @Override
     public void onInitializeClient()
