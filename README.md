@@ -44,11 +44,20 @@
 * [创造流体](tutorial/fluids.md)
 * [添加实体](tutorial/entity.md)
 * [添加方块实体](tutorial/blockentity.md)
-* [自定义快捷键绑定](tutorial/keybinds.md)
 * [使用映射](tutorial/mappings.md)
 * [维度概念](tutorial/dimensionconcepts.md)
 * 创建基本维度
 
+### 杂项
+
+* [添加装备]()
+* [添加自定义结界]()
+* [自定义快捷键绑定](tutorial/keybinds.md)
+* [创建自定义事件]()
+* [向现有成就表添加项目]()
+* [创建命令]()
+* [播放声音]()
+* [有用的教程列表]()
 ### 高级
 
 * [Modding Tips](tutorial/modding_tips.md)
