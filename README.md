@@ -10,7 +10,7 @@
 * [安装Minecraft / Fabric服务器](https://fabricmc.net/wiki/tutorial:installing_minecraft_fabric_server)
 * [添加mods](https://fabricmc.net/wiki/tutorial:adding_mods)
 * [更新现有的MultiMC实例](https://fabricmc.net/wiki/tutorial:updating_fabric_using_multimc_launcher)
-* [安装/验证 java]()
+* [安装/验证 java](https://fabricmc.net/wiki/tutorial:install_java)
 
 
 ## Modpack和Launcher开发人员
@@ -41,6 +41,7 @@
 * [添加物品组](tutorial/itemgroup.md)
 * [根据生物群系进行块改变颜色](tutorial//biomecoloring.md)
 * [生成结构](tutorial/structures.md)
+* [创造流体](tutorial/fluids.md)
 * [添加实体](tutorial/entity.md)
 * [添加方块实体](tutorial/blockentity.md)
 * [自定义快捷键绑定](tutorial/keybinds.md)
