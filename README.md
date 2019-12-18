@@ -1,3 +1,4 @@
+[已经添加到官方WIKI](https://fabricmc.net/wiki/zh_cn:accueil)
 # 欢迎来到 Fabric-Wiki
 这是一个中文的Wiki  (人翻+机翻)
 
